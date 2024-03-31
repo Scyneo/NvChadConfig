@@ -1,5 +1,6 @@
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
 vim.g.mapleader = " "
+vim.g.copilot_node_command = "/home/mati/.nvm/versions/node/v20.12.0/bin/node"
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
